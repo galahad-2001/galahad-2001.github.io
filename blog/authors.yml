@@ -23,3 +23,17 @@ slorber:
     linkedin: sebastienlorber
     github: slorber
     newsletter: https://thisweekinreact.com
+
+jaydengu:
+  name: 顾惠栋
+  title: 软件测试工程师
+  url: https://github.com/galahad-2001
+  image_url: https://github.com/galahad-2001.png
+  page:
+    # customize the url of the author page at /blog/authors/<permalink>
+    permalink: '/jaydengu'
+  socials:
+    # x: sebastienlorber
+    # linkedin: sebastienlorber
+    github: galahad-2001
+    # newsletter: https://thisweekinreact.com
