@@ -6,7 +6,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: windows-latest  # 使用Windows环境
+    runs-on: ubuntu-latest
     
     steps:
     - name: Checkout code
@@ -19,9 +19,17 @@ jobs:
         
     - name: Install dependencies
       run: yarn install --frozen-lockfile
-      
+    
+    - name: Clean build cache
+      run: yarn clear
+    
     - name: Build site
       run: yarn build
+
+    - name: Verify build output
+      run: |
+        ls -la build
+        grep "顾惠栋" build/index.html || exit 1
       
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3

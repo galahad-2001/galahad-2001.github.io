@@ -29,6 +29,11 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'galahad-2001', // Usually your GitHub org/user name.
   projectName: 'galahad-2001.github.io', // Usually your repo name.
+  
+  // 添加部署分支配置
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
+
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
