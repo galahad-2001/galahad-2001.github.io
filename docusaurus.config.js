@@ -32,8 +32,6 @@ const config = {
   
   // 添加部署分支配置
   deploymentBranch: 'gh-pages',
-  trailingSlash: false,
-
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

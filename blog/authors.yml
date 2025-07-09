@@ -1,39 +1,8 @@
-yangshun:
-  name: Yangshun Tay
-  title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
-  url: https://linkedin.com/in/yangshun
-  image_url: https://github.com/yangshun.png
-  page: true
-  socials:
-    x: yangshunz
-    linkedin: yangshun
-    github: yangshun
-    newsletter: https://www.greatfrontend.com
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
-  socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
-
-jaydengu:
+jayden:
   name: 顾惠栋
-  title: 软件测试工程师
+  title: 软件测试负责人, 资深软件测试工程师
   url: https://github.com/galahad-2001
   image_url: https://github.com/galahad-2001.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/jaydengu'
+  page: true
   socials:
-    # x: sebastienlorber
-    # linkedin: sebastienlorber
     github: galahad-2001
-    # newsletter: https://thisweekinreact.com
