@@ -1,0 +1,24 @@
+docusaurus:
+  label: Docusaurus
+  permalink: /docusaurus
+  description: Docusaurus tag description
+
+githubpages:
+  label: GitHub Pages
+  permalink: /githubpages
+  description: GitHub Pages tag description
+
+pytest:
+  label: Pytest
+  permalink: /pytest
+  description: Pytest Pages tag description
+
+allure:
+  label: Allure
+  permalink: /allure
+  description: Allure tag description
+
+jenkins:
+  label: Jenkins
+  permalink: /jenkins
+  description: Jenkins Pages tag description
